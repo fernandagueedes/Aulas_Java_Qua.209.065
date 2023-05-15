@@ -1,0 +1,22 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*Faça um programa que entre com um ano e diga se ele é bissexto ou não
+		 */
+		
+		Scanner leia = new Scanner (System.in);
+		
+		int ano;
+		System.out.println("Informe um ano: ");
+		ano = leia.nextInt();
+		
+		
+	}
+
+}

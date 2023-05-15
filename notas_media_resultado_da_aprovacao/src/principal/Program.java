@@ -1,0 +1,58 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/* Faça um programa que leia 4 notas de aluno e retorne a média, se média maior que 5 e menor que 6 REPROVADO,
+		 * se média entre 6 e 7 RECUPERAÇÃO, se média acima de 7 APROVADO, se média 10 APROVADO COM HONRAS.
+		 */
+		
+		Scanner leia = new Scanner (System.in);
+		
+		double nota1;
+		double nota2;
+		double nota3;
+		double nota4;
+
+		System.out.print("Informe a nota do primeiro bimestre: ");
+        nota1 = leia.nextDouble();
+
+		System.out.print("Informe a nota do segundo bimestre: ");
+        nota2 = leia.nextDouble();
+
+        System.out.print("Informe a nota do terceiro bimestre: ");
+        nota3 = leia.nextDouble();
+
+		System.out.print("Informe a nota do quarto bimestre: ");
+		nota4 = leia.nextDouble();
+
+		leia.close();
+
+		double media = ((nota1 + nota2 + nota3 + nota4)/4);
+
+		System.out.println("A média das notas informadas é: " + media);
+
+		
+        if (media <6) {
+
+			System.out.println("REPROVADO" );
+
+		} if ((media >=6) && (media <7)) {
+
+			System.out.println ("RECUPERAÇÃO" );
+
+		} if ((media >=7) && (media <10)) {
+
+			System.out.println ("APROVADO" );
+
+		} if (media == 10) {
+
+			System.out.println("APROVADO COM HONRAS!");
+		}
+	}
+
+}

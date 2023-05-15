@@ -1,0 +1,30 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*Faça um programa que receba o salario base de um funcionário (salario bruto) 
+		  faça o desconto de inss 5% e IR 11% mostre o valor dos descontos, e o valor do salario liquido;
+		 */
+		
+		Scanner leia = new Scanner (System.in);
+		
+		
+		double salarioBruto;
+		
+		System.out.println("Informe o valor do salário bruto: ");
+		salarioBruto = leia.nextDouble();
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,68 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	    int numero1 = 10;
+	    int numero2 = 25;
+	    boolean bool = false;
+	    
+	    /* o if significa "se", e a chave no final delimita o meu if, ou seja, o meu comando if terminou.
+	     * o else significa "se não"
+	     * o boolean retorna "verdadeiro" ou "falso"
+	     * quando eu nego a minha variável ela muda o valor (como na tabela verdade) ex: a variavel bool = false
+	     * para negar a variavel usa : !bool = true
+	     * ! = negação da variável
+	     */
+	    
+	    if(numero1 > numero2) {
+	    	System.out.println("número 1 é o maior");
+	    }
+	    else {
+	    	System.out.println("número 2 é o maior");
+	    	
+	    }
+		if (bool == false) {
+			System.out.println("Verdadeiro");
+		}
+		else {
+			System.out.println("Falso");
+		
+		
+			
+		// Exemplo usando resto da divisão para saber se é impar ou par
+			
+			Scanner leia = new Scanner (System.in);
+			
+			int numero;
+		
+			System.out.println("Entre com um número para saber se é par ou ímpar");
+			numero = leia.nextInt();
+			
+			if (numero % 2 == 0) {
+				System.out.println("número par!");
+			}
+			else {
+				System.out.println("número ímpar!");
+			}
+					
+				
+			
+			
+			leia.close();
+			
+			
+			
+			
+			
+			
+		}
+			
+		
+	}
+
+}

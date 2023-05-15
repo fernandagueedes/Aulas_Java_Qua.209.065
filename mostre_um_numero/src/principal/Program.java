@@ -1,0 +1,28 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    
+		
+		/*Faça um programa que peça um número e então mostre a mensagem O numero informado foi [numero]
+       
+       */
+		
+		Scanner leia = new Scanner (System.in);
+	    int numero;
+	  
+     
+		System.out.println("Informe um número: ");
+		numero = leia.nextInt();
+		
+		System.out.println("O número informado foi: " + numero);
+		
+		leia.close();
+		
+	}
+
+}
