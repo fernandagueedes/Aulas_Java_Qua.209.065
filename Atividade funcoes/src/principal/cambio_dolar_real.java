@@ -12,8 +12,12 @@ public class cambio_dolar_real {
 		
 		Scanner sc = new Scanner (System.in);
 		
+		
 		double valorEmReais;
-		double taxaDeCambio = 5.20;
+		double taxaDeCambio;
+		
+		System.out.print("Digite o valor da cotação do Dólar : ");
+		taxaDeCambio = sc.nextDouble();
 		
 		
 		System.out.print("Digite o valor em reais para convertê-lo para Dolar: ");
@@ -38,7 +42,7 @@ public class cambio_dolar_real {
 	  System.out.println("O valor R$ " + x + " convertido para Dolár é: " + cambioDolar);
 }
 	 static void cambioReais (double y, double x) { double cambioReais = y * x;
-	 System.out.println("o valor em Dólar" + y + " convertido para REAIS é R$ " + cambioReais);
+	 System.out.println("o valor em Dólar " + y + " convertido para REAIS é R$ " + cambioReais);
 		 
 	 }
 }

@@ -29,6 +29,7 @@ public class valor_produto_valor_lucro {
 		
 		valorVendido (valorDoProduto, auxLucro);
 		
+		
 		sc.close();
 		
 		

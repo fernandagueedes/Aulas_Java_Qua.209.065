@@ -25,7 +25,7 @@ public class Program {
 		System.out.println("A temperatura informada em Graus Fahrenheit é: " + resultado);
 		
 		
-		
+		leia.close();
 	}
 
 }
