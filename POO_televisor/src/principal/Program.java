@@ -23,7 +23,12 @@ public class Program {
 		
 		Televisor televisor = new Televisor();
 		
+		televisor.mostrarStatus();
+		
 		televisor.ligarTelevisor();
+		
+		televisor.mostrarStatus();
+		
 		televisor.aumentarVolume();
 		televisor.aumentarVolume();
 		televisor.aumentarVolume();

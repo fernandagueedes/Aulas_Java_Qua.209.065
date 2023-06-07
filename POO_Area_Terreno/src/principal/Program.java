@@ -9,6 +9,7 @@ public class Program {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
 		Scanner sc = new Scanner (System.in);
 		
 		AreaTerreno area = new AreaTerreno(); //para acessar a classe que foi criada, no caso desta é a Area.Terreno

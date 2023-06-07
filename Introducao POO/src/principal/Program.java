@@ -2,9 +2,11 @@ package principal;
 
 import entities.Carro;
 
-public class Program {
+public class Program { 
 
 	public static void main(String[] args) {
+		
+		/*programação orientada a objetos é trazer o mundo real pro mundo da programacão */
 		
 		Carro carro = new Carro();
 		Carro carro2 = new Carro();
