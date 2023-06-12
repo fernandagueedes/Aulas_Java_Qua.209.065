@@ -2,7 +2,7 @@ package entities;
 
 public class Conta {
 	
-	/*metodos acessores get para atribuir o valor e set para 
+	/*metodos acessores: set para atribuir o valor, get para pegar o valor atribuido
 	 * alt + shift + S
 	*/
 	
