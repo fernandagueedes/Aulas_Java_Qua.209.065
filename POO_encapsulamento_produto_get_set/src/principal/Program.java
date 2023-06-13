@@ -8,18 +8,25 @@ public class Program {
 
 	public static void main(String[] args) {
 
+		
 		Scanner sc = new Scanner(System.in);
-		Produto produto = new Produto();
 
+		//System.out.println(produto);
+		
 		System.out.print("Entre com o nome do produto: ");
-		produto.setDescricao(sc.nextLine());
+		String nome = sc.nextLine();
+		//produto.setDescricao(sc.nextLine());
 
 		System.out.print("Entre com a quantidade a ser adicionada: ");
-		produto.adicionaProduto(sc.nextInt());
+		int qtd = sc.nextInt();
+		//produto.adicionaProduto(sc.nextInt());
 
 		System.out.print("Entre com o valor unitário: ");
-		produto.setPreco(sc.nextDouble());
-
+		double valor = sc.nextDouble();
+		//produto.setPreco(sc.nextDouble());
+		
+		Produto produto = new Produto(nome, qtd, valor);
+		
 		System.out.println(produto);
 		
 		System.out.println("Quantidade a ser removida: ");
