@@ -3,6 +3,9 @@ package entities;
 public class Produto {
 	// this.quantidade usa o this. no atributo
 	// Alt Shift S Generate constructor from
+	//get uso para atribuir ou seja, consigo alterar.
+	//set eu só consigo visualizar, não altero. exemplo saldo conta bancaria, preciso de um método para alterar, 
+	// não consigo alterá-lo diretamente.
 
 	private String descricao;
 	private int quantidade;
