@@ -8,7 +8,7 @@ public class Conta {
 	private int agencia;
 	protected double saldo;
 	
-	//o protected só vai aparecer nas classes filhas, o private não consegue ser acessado
+	//o protected só vai aparecer nas classes filhas (subclasse), o private não consegue ser acessado
 	
 	public Conta() {
 		super();

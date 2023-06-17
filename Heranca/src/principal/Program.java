@@ -18,23 +18,30 @@ public class Program {
 		*/
 		
 		
+		
 		Scanner sc = new Scanner(System.in);
 		Conta contaPoupanca = new ContaPoupanca("Fernanda", 0123, 99000);
 		Conta conta = new Conta("Maria", 3210, 00111);
 		Conta contaCorrente = new ContaCorrente("João", 4567, 44555);
 		
+		Conta cc = new ContaCorrente("Testar", 4442, 6699);
+		
 		contaPoupanca.depositar(500);
 		conta.depositar(500);
 		contaCorrente.depositar(500);
+		cc.depositar(500);
+		
+		
 		
 		contaPoupanca.sacar(50);
 		conta.sacar(50);
 		contaCorrente.sacar(50);
+		cc.sacar(500);
 		
 		System.out.println(contaPoupanca);
 		System.out.println(conta);
 		System.out.println(contaCorrente);
-		
+		System.out.println(cc);
 		
 		/*System.out.println("Entre com o titular da conta: ");
 		contaPoupanca.setNomeTitular(sc.nextLine());
