@@ -18,9 +18,14 @@ public class Program {
 		 */
 		
 		Scanner sc = new Scanner (System.in);
-		Funcionario funcionario = new Funcionario("Fernanda", "Financeiro", 'F', 5000.00);
-		Gerente gerente = new Gerente ("Ana", "Gerente RH", 'F', 4500.00);
-		Secretaria secretaria = new Secretaria ("Maria", "Secretaria", 'F', 3500.00);
+		Funcionario funcionario = new Funcionario("Fernanda", "Financeiro", 'F', 32, 5000.00);
+		Gerente gerente = new Gerente ("Ana", "Gerente RH", 'F', 45, 4500.00);
+		Secretaria secretaria = new Secretaria ("Joana", "Secretaria", 'F', 33, 3500.00);
+		
+		
+		funcionario.bonificacao();
+		gerente.bonificacao();
+		secretaria.bonificacao();
 		
 		System.out.println(funcionario);
 		System.out.println();

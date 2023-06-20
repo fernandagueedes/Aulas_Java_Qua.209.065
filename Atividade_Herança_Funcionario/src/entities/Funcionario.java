@@ -5,15 +5,24 @@ public class Funcionario {
 	private String nome;
 	private String departamento;
 	private char sexo;
+	private int idade;
 	protected double salario;
 	
-	public Funcionario(String nome, String departamento, char sexo, double salario) {
+	public Funcionario(String nome, String departamento, char sexo, int idade, double salario) {
 		super();
 		this.nome = nome;
 		this.departamento = departamento;
 		this.sexo = sexo;
+		this.idade = idade;
 		this.salario = salario;
 	}
+	
+
+	public Funcionario() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 
 	public String getNome() {
 		return nome;
@@ -38,6 +47,12 @@ public class Funcionario {
 	public void setSexo(char sexo) {
 		this.sexo = sexo;
 	}
+	 public void setIdade(int idade) {
+		 this.idade = idade;
+	}
+	 public int getIdade() {
+		 return idade;
+	 }
 
 	public double getSalario() {
 		return salario;
@@ -48,14 +63,14 @@ public class Funcionario {
 	}
 
 	public void bonificacao () {
-		this.salario+=0;
+		this.salario+=150.00;
 	}
 	
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
 		return "Nome: " + nome + "\nDepartamento: "+ departamento +
-				"\nSexo: " + sexo + "\nSalario: " + salario + "\nBonificação: ";
+				"\nSexo: " + sexo +"\nIdade:" + idade + "\nSalário: " + salario;
 	}
 	
 	
